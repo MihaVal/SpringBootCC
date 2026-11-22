@@ -1,0 +1,78 @@
+
+# ==========================
+# Maven / Build
+# ==========================
+target/
+build/
+*.class
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================
+# Eclipse / Spring Tool Suite
+# ==========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# NetBeans
+# ==========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================
+# Environment / Secrets
+# ==========================
+.env
+.env.*
+!.env.example
+
+# Local Spring configurations
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ==========================
+# Logs / Temporary files
+# ==========================
+*.log
+logs/
+*.tmp
+*.swp
+*~
+
+# ==========================
+# Operating system
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Java crash reports
+# ==========================
+hs_err_pid*
+replay_pid*
